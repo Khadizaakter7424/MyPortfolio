@@ -1,6 +1,7 @@
+import { API_BASE_URL } from "../api/config";
 import Reveal from "./Reveal";
 
-const RESUME_URL = "/media/Khadiza_Akter_Resume.pdf";
+const RESUME_URL = `${API_BASE_URL}/media/Khadiza_Akter_Resume.pdf`;
 const RESUME_FILENAME = "Khadiza_Akter_Resume.pdf";
 
 export default function Download() {
