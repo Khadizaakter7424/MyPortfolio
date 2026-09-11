@@ -1,3 +1,4 @@
+import { API_BASE_URL } from "./config";
 export type ContactPayload = {
   name: string;
   email: string;
@@ -13,7 +14,7 @@ export type ContactResult =
 // so this works unchanged in both development and a same-origin production deploy.
 export async function sendContactMessage(payload: ContactPayload): Promise<ContactResult> {
   try {
-    const response = await fetch("/api/contact", {
+    const response = await fetch(`${API_BASE_URL}/api/contact`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload)
