@@ -1,3 +1,4 @@
+import { API_BASE_URL } from "../api/config";
 import { Profile } from "../types";
 import AnimatedNumber from "./AnimatedNumber";
 import RoleTypewriter from "./RoleTypewriter";
@@ -40,7 +41,7 @@ export default function Hero({ profile, stats, techList }: Props) {
           <div className="hero-photo-wrap">
             <div className="hero-photo">
               <div className="hero-photo-img">
-                <img src={profile.photoUrl} alt={`Portrait of ${profile.name}`} />
+               <img src={`${API_BASE_URL}${profile.photoUrl}`} alt={`Portrait of ${profile.name}`} />
               </div>
             </div>
             {profile.statusMessage && (
