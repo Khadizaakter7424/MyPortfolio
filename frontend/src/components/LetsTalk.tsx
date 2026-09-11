@@ -1,7 +1,7 @@
-import { API_BASE_URL } from "../api/config";
 import { FormEvent, useState } from "react";
 import { Profile } from "../types";
 import { sendContactMessage } from "../api/contact";
+import { API_BASE_URL } from "../api/config";
 import Reveal from "./Reveal";
 
 type Props = {
