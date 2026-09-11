@@ -1,0 +1,210 @@
+{
+  "Profile": {
+    "Name": "Khadiza Akter",
+    "Role": "Aspiring .NET Developer",
+    "Location": "Kanchpur, Narayanganj, Dhaka",
+    "Email": "khadizabristy371@gmail.com",
+    "Phone": "01581-467424",
+    "GitHub": "https://github.com/Khadizaakter7424",
+    "LinkedIn": "https://linkedin.com/in/khadiza-akter-04b500395",
+    "Objective": "Entry-level .NET developer with hands-on project experience in C#, ASP.NET MVC, ASP.NET Core, Entity Framework and SQL Server, built through self-driven coursework projects. Looking to bring solid fundamentals in object-oriented programming and database design to a growing development team, with a commitment to REST API design, Git-based collaboration and clean code.",
+    "PhotoUrl": "/media/profile.jpg",
+    "StatusMessage": "Currently in the IsDB-BISEW training programme"
+  },
+  "Skills": [
+    {
+      "Category": "Backend",
+      "Items": [
+        "C# (.NET / .NET Core)",
+        "ASP.NET MVC",
+        "ASP.NET Core MVC",
+        "ASP.NET Web API",
+        "Entity Framework",
+        "ADO.NET"
+      ]
+    },
+    {
+      "Category": "Frontend",
+      "Items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "Angular",
+        "React"
+      ]
+    },
+    {
+      "Category": "Desktop",
+      "Items": [
+        "Windows Forms",
+        "Connected \u0026 disconnected ADO.NET"
+      ]
+    },
+    {
+      "Category": "Database",
+      "Items": [
+        "MS SQL Server",
+        "T-SQL",
+        "Stored Procedures",
+        "Views",
+        "Triggers"
+      ]
+    },
+    {
+      "Category": "Reporting",
+      "Items": [
+        "Crystal Reports"
+      ]
+    },
+    {
+      "Category": "Tools",
+      "Items": [
+        "Visual Studio",
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "SQL Server"
+      ]
+    },
+    {
+      "Category": "Conceptual knowledge",
+      "Items": [
+        "Object-Oriented Programming",
+        "ORM"
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Name": "University Admission \u0026 Student Management System",
+      "Description": [
+        "A student records and university admission web app with full CRUD, image upload/preview handling, and dynamic subject rows added or removed with jQuery.",
+        "Includes supporting HTML/C# student and school registration forms built during iterative development."
+      ],
+      "Tech": "C#, ASP.NET MVC, ASP.NET Core MVC, Entity Framework, jQuery, SQL Server, Crystal Reports",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Patient Management System",
+      "Description": [
+        "A full patient record and treatment-tracking system, including an ASP.NET MVC web version with complete CRUD workflows, Ajax.BeginForm submissions, and dynamic prescription rows."
+      ],
+      "Tech": "C#",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Apartment Management System",
+      "Description": [
+        "A C# application to list and manage apartment owner details for a residential property."
+      ],
+      "Tech": "C#, SQL Server",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Online Book Store (E-Commerce)",
+      "Description": [
+        "A full-stack e-commerce platform for browsing and ordering books, with a Node.js backend and MongoDB storage."
+      ],
+      "Tech": "HTML, CSS, JavaScript, jQuery, Node.js, MongoDB",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Hospital \u0026 Medical Database Systems",
+      "Description": [
+        "A day-to-day doctor-patient database covering appointments and treatment records.",
+        "A supporting mini-project applying stored procedures, views and triggers to automate common medical-record operations."
+      ],
+      "Tech": "MS SQL Server, T-SQL, Stored Procedures, Views, Triggers",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Movie Review \u0026 Rating System",
+      "Description": [
+        "A relational database for movies, users and ratings, with T-SQL queries supporting review and rating features."
+      ],
+      "Tech": "MS SQL Server, T-SQL",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Chatting App",
+      "Description": [
+        "A simple offline chat application for talking with friends, built to be easy to use and explore."
+      ],
+      "Tech": "JavaScript",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    },
+    {
+      "Name": "Bucket List App",
+      "Description": [
+        "A bucket list app for adding and tracking daily tasks in a simple, straightforward way."
+      ],
+      "Tech": "HTML, Java",
+      "GitHub": "https://github.com/Khadizaakter7424"
+    }
+  ],
+  "Education": [
+    {
+      "Title": "MBA \u2014 Finance \u0026 Banking",
+      "Place": "Eden Mohila College, Dhaka",
+      "Period": "2022 \u2013 2023"
+    },
+    {
+      "Title": "BBA \u2014 Finance \u0026 Banking",
+      "Place": "Eden Mohila College, Dhaka",
+      "Period": "2018 \u2013 2022"
+    },
+    {
+      "Title": "HSC",
+      "Place": "Motijheel Ideal School and College, Dhaka",
+      "Period": "2018"
+    },
+    {
+      "Title": "SSC",
+      "Place": "Motijheel Govt. Girls High School, Dhaka",
+      "Period": "2016"
+    }
+  ],
+  "Training": [
+    {
+      "Title": "IsDB-BISEW IT Scholarship Programme",
+      "Place": "Cross-platform apps with ASP.NET, Angular \u0026 React",
+      "Period": "Ongoing"
+    },
+    {
+      "Title": "Intern, .NET Development",
+      "Place": "Daffodil International Academy",
+      "Period": "Ongoing"
+    }
+  ],
+  "Languages": [
+    {
+      "Name": "Bangla",
+      "Level": 5
+    },
+    {
+      "Name": "English",
+      "Level": 5
+    },
+    {
+      "Name": "Japanese",
+      "Level": 3
+    },
+    {
+      "Name": "Korean",
+      "Level": 2
+    },
+    {
+      "Name": "Thai",
+      "Level": 2
+    }
+  ],
+  "Hobbies": [
+    "Judo (White Belt)",
+    "Reading books",
+    "Photography",
+    "Exploring"
+  ]
+}

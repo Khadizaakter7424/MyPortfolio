@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PortfolioApi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Messages get persisted as JSON here, so no database setup is required to run the API -->
+    <None Update="App_Data\messages.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('App_Data\messages.json')" />
+  </ItemGroup>
+
+</Project>
