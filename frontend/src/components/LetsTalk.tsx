@@ -1,3 +1,4 @@
+import { API_BASE_URL } from "../api/config";
 import { FormEvent, useState } from "react";
 import { Profile } from "../types";
 import { sendContactMessage } from "../api/contact";
@@ -49,7 +50,7 @@ export default function LetsTalk({ profile }: Props) {
         <div className="talk-grid">
           <Reveal className="talk-card">
             <div className="talk-card-photo">
-              <img src={profile.photoUrl} alt={profile.name} />
+              <img src={`${API_BASE_URL}${profile.photoUrl}`} alt={profile.name} />
             </div>
             <div>
               <p className="timeline-title" style={{ color: "var(--bg)" }}>{profile.name}</p>
